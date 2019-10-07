@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-transform: uppercase !important;
+}
+
+.main-header {
+    height: 100vh;
+    background: rgb(53, 52, 52)
+    
+    
+    /*linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("./2.jpg") no-repeat center/cover ;*/
+}
+
+.header-h1 {
+    text-align: center;
+    padding: 2rem 0;
+    color: #fff;
+    
+}
+
+.header-h1 h1 {
+    text-transform: uppercase;
+    font-size: 3rem;    
+}
+

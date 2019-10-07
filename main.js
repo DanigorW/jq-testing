@@ -5,6 +5,9 @@
 // window options 
 // get url query's - let query = location.search
 // event listeners
+// array methods
+// objects methods
+// string methods
 // form submit
 // loops
 
@@ -111,7 +114,19 @@ btn.addEventListener("click", function(){
 })
 
 function showData(data) {
-  const dataJson = JSON.parse(data.request.responseText);
+  const dataJson = JSON.parse(data.request.responseText)
   h1.textContent = dataJson.value
 }
+*/
+
+
+
+//smooth scrolling
+/*
+const btn = document.querySelector(".button-1");
+btn.addEventListener("click", ()=>{
+    document.querySelector('#igor').scrollIntoView({ 
+        behavior: 'smooth' 
+    })    
+})
 */
