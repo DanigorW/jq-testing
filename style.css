@@ -11,7 +11,7 @@ a {
 }
 
 .main-header {
-    height: 100vh;
+    height: auto;
     background: rgb(53, 52, 52)
     
     
@@ -30,3 +30,16 @@ a {
     font-size: 3rem;    
 }
 
+.cards {
+    margin: 100px 0;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+code {
+    font-size: 16px;
+    color: #000;
+    display: block;
+}
