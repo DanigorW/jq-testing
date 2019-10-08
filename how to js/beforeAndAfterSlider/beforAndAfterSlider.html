@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>snippet land</title>
+  </head>
+
+  <body>
+    <header id="header1" class="main-header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand text-uppercase" href="../../index.html"
+          >cheatsheet</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                how to ׂ(js)
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="../connectToApis.html"
+                  >connect to api</a
+                >
+                <a class="dropdown-item" href="#">before and after slider</a>
+                <a class="dropdown-item" href="#">smooth scrolling</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                how to ׂ(css)
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">connect to api</a>
+                <a class="dropdown-item" href="#">before and after slider</a>
+                <a class="dropdown-item" href="#">smooth scrolling</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link "
+                href="../../mdn doc/mdnDoc.html"
+                id="navbarDropdownMenuLink"
+              >
+                MDN DOCS
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="header-h1 ">
+        <h1><span class="header-span">Before and after</span></h1>
+      </div>
+      <div id="page">
+        <div class="wrapper">
+          <div class="before">
+            <img
+              class="content-image"
+              src="https://farm2.staticflickr.com/1638/26145024230_06acd55d1b_b.jpg"
+              draggable="false"
+            />
+          </div>
+          <div class="after">
+            <img
+              class="content-image"
+              src="https://farm2.staticflickr.com/1663/25814974803_d4c55ff708_b.jpg"
+              draggable="false"
+            />
+          </div>
+          <div class="scroller">
+            <svg
+              class="scroller__thumb"
+              xmlns="http://www.w3.org/2000/svg"
+              width="100"
+              height="100"
+              viewBox="0 0 100 100"
+            >
+              <polygon points="0 50 37 68 37 32 0 50" style="fill:#fff" />
+              <polygon points="100 50 64 32 64 68 100 50" style="fill:#fff" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card text-white bg-info mb-3 style:max-width: 1000px;">
+          <div class="card-header">Before and after</div>
+          <div class="card-body">
+            <h5 class="card-title">Html</h5>
+            <p class="card-text">
+              <code>
+                < div id="page" ><br />
+                < div class="wrapper" ><br />
+                < div class="before" ><br />
+                < img class="content-image" src="https://farm2.staticflickr.com/
+                <br />
+                1638/26145024230_06acd55d1b_b.jpg" draggable="false" / > <br /><
+                /div > <br /><br />
+                < div class="after" ><br />
+                < img class="content-image" src="https://farm2.staticflickr.com/
+                <br />
+                1663/25814974803_d4c55ff708_b.jpg" draggable="false" / ><br />
+                < /div > <br /><br />< div class="scroller" > <br />
+                < svg class="scroller__thumb" <br />
+                xmlns="http://www.w3.org/2000/svg" width="100" height="100"
+                <br />
+                viewBox="0 0 100 100" ><br />
+                < polygon points="0 50 37 68 37 32 0 50" style="fill:#fff" />
+                <br />
+                < polygon points="100 50 64 32 64 68 100 50" style="fill:#fff" /
+                ><br />
+                < /svg ><br />
+                < /div ><br />
+                < /div > <br />
+                < /div >
+              </code>
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-info mb-3 style:max-width: 1000px;">
+          <div class="card-header">Before and after</div>
+          <div class="card-body">
+            <h5 class="card-title">Css</h5>
+            <p class="card-text">
+              <code>
+                #page{<br />
+                width:100%;<br />
+                height:100%;<br />
+                position:absolute;<br />
+                } <br /><br />
+                /* Our normalize css */ <br />
+                *{<br />
+                margin:0;<br />
+                box-sizing: border-box;<br />
+                } <br /><br />
+                /* Our wrapper */ <br />
+                .wrapper{ <br />
+                width: 900px; <br />
+                height: 600px;<br />
+                position: absolute;<br />
+                left:50%;<br />
+                top:50%; <br />
+                transform:translate3d(-50%,-50%,0); <br />
+                overflow:hidden; <br />
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19),<br />
+                0 6px 6px rgba(0,0,0,0.23);<br />
+                } <br />
+                <br />
+                /* Our image information */ <br />
+                .before, .after { <br />
+                width:100%; <br />
+                height:100%; background-repeat:no-repeat; <br />
+                background-color: white; <br />
+                background-size: cover; <br />
+                background-position: center; <br />
+                position: absolute; <br />
+                top:0; <br />
+                left:0; <br />
+                pointer-events:none; <br />
+                overflow: hidden; <br />
+                } <br />
+                <br />
+                .content-image{ <br />
+                height:100%; <br />
+                } <br />
+                <br />
+                .after{ <br />
+                width:125px; <br />
+                } .scroller{ <br />
+                width: 50px; <br />
+                height:50px; <br />
+                position: absolute; <br />
+                left:100px; <br />
+                top:50%; <br />
+                transform:translateY(-50%); <br />
+                border-radius:50%; <br />
+                background-color: transparent; <br />
+                opacity:0.9; <br />
+                pointer-events:auto; <br />
+                cursor: pointer; <br />
+                } <br />
+                <br />
+                .scroller:hover{ <br />
+                opacity:1; <br />
+                } <br />
+                .scrolling{ <br />
+                pointer-events:none; <br />
+                opacity:1; <br />
+                } <br />
+                <br />
+                .scroller__thumb{ <br />
+                width:100%; <br />
+                height:100%; <br />
+                padding:5px; <br />
+                } <br />
+                <br />
+                .scroller:before, .scroller:after{ <br />
+                content:" "; <br />
+                display: block; <br />
+                width: 7px; <br />
+                height: 9999px; <br />
+                position: <br />
+                absolute; left: 50%; <br />
+                margin-left: -3.5px; <br />
+                z-index: 30; <br />
+                transition:0.1s; <br />
+                } <br />
+                <br />
+                .scroller:before{ <br />
+                top:100%; <br />
+                } <br />
+                <br />
+                .scroller:after{ <br />
+                bottom:100%; <br />
+                } <br />
+                <br />
+                /* If you want to cahnge the colors, <br />
+                make sure you change the fill in the svgs to match */ <br />
+                <br />
+                <br />
+                .scroller{ <br />
+                border: 5px solid #fff; <br />
+                } <br />
+                <br />
+                .scroller:before, .scroller:after{ <br />
+                background: #fff; <br />
+                } <br />
+              </code>
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-info mb-3 style:max-width: 1000px;">
+          <div class="card-header">Before and after</div>
+          <div class="card-body">
+            <h5 class="card-title">Javascript</h5>
+            <p class="card-text">
+              <code>
+                let active = false; <br />
+                // First we'll have to set up our event listeners <br />
+                // We want to watch for clicks on our scroller <br />
+                <br />
+                document.querySelector(".scroller") <br />
+                .addEventListener("mousedown", function() { <br />
+                active = true;
+                <br />
+                <br />// Add our scrolling class so the <br />
+                scroller has full opacity while active <br />
+                <br />
+                document.querySelector(".scroller").classList.add("scrolling");
+                <br />
+
+                }); <br />
+                <br />
+                // We also want to watch the body for changes to the state,
+                <br />
+                // like moving around and releasing the click <br />
+                // so let's set up our event listeners <br />
+                <br />
+                document.body.addEventListener("mouseup", function() { <br />
+                active = false; <br />
+                document.querySelector(".scroller").classList.remove("scrolling");
+                <br />
+                }); <br />
+                <br />
+                document.body.addEventListener("mouseleave", function() { <br />
+                active = false; <br />
+                document.querySelector(".scroller").classList.remove("scrolling");
+                <br />
+                }); <br />
+                <br />
+                // Let's figure out where their mouse is at <br />
+                <br />
+                document.body.addEventListener("mousemove", function(e) { <br />
+                if (!active) return; <br />
+                <br />
+                // Their mouse is here... <br />
+                <br />
+                let x = e.pageX; <br />
+                <br />
+                // but we want it relative to our wrapper <br />
+                <br />
+                x -=
+                document.querySelector(".wrapper").getBoundingClientRect().left;
+                <br />
+                <br />
+                // Okay let's change our state <br />
+                <br />
+                scrollIt(x); <br />
+                }); <br />
+                <br />
+                // Let's use this function <br />
+                <br />
+                function scrollIt(x) { <br />
+                let transform = Math.max( 0, Math.min(x,
+                document.querySelector(".wrapper").offsetWidth) );<br />
+                document.querySelector(".after").style.width = transform + "px";
+                <br />
+                document.querySelector(".scroller").style.left = transform - 25
+                + "px"; <br />
+                } <br />
+                <br />
+                // Let's set our opening state based off the width, <br />
+                // we want to show a bit of both images so the user can see
+                <br />
+                what's going on <br />
+                <br />
+                scrollIt(150); <br />
+                <br />
+                // And finally let's repeat the process for touch events <br />
+                // first our middle scroller... <br />
+                <br />
+                document.querySelector(".scroller").addEventListener("touchstart",
+                function() { <br />
+                active = true; <br />
+                document.querySelector(".scroller").classList.add("scrolling");
+                <br />
+                }); <br />
+                document.body.addEventListener("touchend", function() { <br />
+                active = false; <br />
+                document.querySelector(".scroller").classList.remove("scrolling");
+                <br />
+                }); <br />
+                document.body.addEventListener("touchcancel", function() {
+                <br />
+                active = false; <br />
+                document.querySelector(".scroller").classList.remove("scrolling");
+                });
+              </code>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./slider.js"></script>
+    <script src="../../main.js"></script>
+  </body>
+</html>

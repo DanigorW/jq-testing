@@ -14,14 +14,14 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <title>snippet land</title>
   </head>
 
   <body>
     <header id="header1" class="main-header">
       <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand text-uppercase" href="./index.html"
+        <a class="navbar-brand text-uppercase" href="../index.html"
           >cheatsheet</a
         >
         <button
@@ -54,14 +54,10 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="./how to js/connectToApis.html"
+                <a class="dropdown-item" href="../how to js/connectToApis.html"
                   >connect to api</a
                 >
-                <a
-                  class="dropdown-item"
-                  href="./how to js/beforeAndAfterSlider/beforAndAfterSlider.html"
-                  >before and after slider</a
-                >
+                <a class="dropdown-item" href="#">before and after slider</a>
                 <a class="dropdown-item" href="#">smooth scrolling</a>
               </div>
             </li>
@@ -81,19 +77,24 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#">connect to api</a>
-                <a class="dropdown-item" href="#">before and after slider</a>
+                <a class="dropdown-item" href="../how to js/connectToApis.html">connect to api</a>
+                <a class="dropdown-item" href="/how to js/beforeAndAfterSlider/beforAndAfterSlider.html">before and after slider</a>
                 <a class="dropdown-item" href="#">smooth scrolling</a>
               </div>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link "
-                href="./mdn doc/mdnDoc.html"
+                href="#"
                 id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
                 MDN DOCS
               </a>
+            
             </li>
           </ul>
         </div>
@@ -102,6 +103,80 @@
       <div class="header-h1 ">
         <h1><span class="header-span">snippet land</span></h1>
       </div>
+
+      <div class="cards">
+        <div class="card text-white bg-info mb-3" style="max-width: 26rem;">
+          <div class="card-header">Window</div>
+          <div class="card-body">
+            <h5 class="card-title">All window events</h5>
+            <p class="card-text">
+              Window events from
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Window"
+                target="_blank"
+                >MDN</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-info mb-3" style="max-width: 26rem;">
+          <div class="card-header">Arrays</div>
+          <div class="card-body">
+            <h5 class="card-title">All array methods</h5>
+            <p class="card-text">
+              Array method from
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype"
+                target="_blank"
+                >MDN</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-info mb-3" style="max-width: 26rem;">
+          <div class="card-header">Strings</div>
+          <div class="card-body">
+            <h5 class="card-title">All strings methods</h5>
+            <p class="card-text">
+              String method from
+              <a
+                href="https://developer.mozilla.org/he/docs/Web/JavaScript/Reference/Global_Objects/String/prototype"
+                target="_blank"
+                >MDN</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-info mb-3" style="max-width: 26rem;">
+          <div class="card-header">Events</div>
+          <div class="card-body">
+            <h5 class="card-title">All events</h5>
+            <p class="card-text">
+              Event listeners from
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/Events#Most_common_categories"
+                target="_blank"
+                >MDN</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-info mb-3" style="max-width: 26rem;">
+          <div class="card-header">elements</div>
+          <div class="card-body">
+            <h5 class="card-title">All elements</h5>
+            <p class="card-text">
+              Element Properties from
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Element"
+                target="_blank"
+                >MDN</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     </header>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
